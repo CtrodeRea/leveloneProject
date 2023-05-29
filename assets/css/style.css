@@ -1,0 +1,27 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-nav li {
+    display: flex;
+    flex-direction: row;
+    padding: 24px 20px;
+    /* gap: 0px;
+    width: 100px; */
+    /* height: 72px; */
+
+}
+.navbar-nav{
+    margin-left: 350px;
+}
+.handsOn{
+position: absolute;
+top:120px;
+right: 240px;
+}
+.txtImg{
+    background-color: #f4f4f4;
+    width: auto;
+    height: 684px;
+}

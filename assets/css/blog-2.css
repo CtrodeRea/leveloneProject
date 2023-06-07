@@ -2,24 +2,43 @@
     margin: 0;
     padding: 0;
 }
+.logo{
+    margin-left: 70px;
+    width: 87px;
+    height: 76px;
+    
+}
 .navbar-nav{
     margin: 0 auto;
     text-align: center;
     gap: 50px;
+    width: auto;
+    height: 122px;
+    font-size: 22px;
 }
-.logo{
-    margin-left: 70px;
-    width: 70px;
-    
+.navbar-nav li{
+    display: inline-block;
+    margin-top: -18px;
 }
+.navbar-nav a{
+    color: black;
+}
+.navbar-nav a:hover{
+   color: #6D1830;
+   border-bottom: 2px solid #6D1830;
+}
+
+
 .downNow{
     margin-right: 80px;
     color: white;
     background-color:#6D1830;
     border: 0;
     width: 15%;
-    padding: 15px;
     border-radius: 5px;
+    font-size:19px;
+    padding: 16px 20px;
+    
 }
 
 #aboutViewE{

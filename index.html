@@ -7,7 +7,7 @@
   <title>View Everything</title>
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
- 
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=lora">
 
   <!-- Bootstrap core CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
@@ -30,26 +30,26 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav me-auto  mb-lg-0 pt-5 ">
               <li class="nav-item">
-                <a class="nav-link " aria-current="page" href="/index.html">Home</a>
+                <a class="nav-link" href="/index.html" >Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="about.html">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/blog.html">Blog</a>
+                <a class="nav-link " href="/blog.html">Blog</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" >
+              <li class="nav-item ">
+                <a class="nav-link" href="/download.html" >
                   Download
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link">Contact</a>
+                <a class="nav-link" href="/contact.html">Contact</a>
               </li>
             </ul>
-              <button class="downNow" type="submit">Download Now</button>
+            <button class="downNow" type="submit"> <a href="/download.html" class="text-white" style="text-decoration:none;">Download Now</a> </button>
           </div>
         </div>
       </nav> <!--end navbar -->
@@ -59,20 +59,27 @@
   <!-- Begin Page Content-->
   <body>
   <!-- opportunity section -->
-  <section class="headerBanner">
+  <section class="homeBanner">
     <div class="container">
       <div class="row">
         <div class="col-lg-6">
-          <div class="text-left viewTxt" >
+          <div class="homeTxt">
 <h3>Your opportunity to view everything</h3>
-<p>Redefine the way you view your environment and interact with your imagination.</p>
+<p>Redefine the way you view your environment and <br> interact with your imagination.</p>
 <div class="starBn">
-<a class="starBtn" href="#">Download Now</a> <img src="assets/images/Rating.png" alt=""><small>from 100+ reviews</small></div>
+<a class="downLoadBtn px-5" href="/download.html">Download Now</a>
+<span class="fiveStar ps-3 pe-1">
+  <i class="fa-solid fa-star"></i>
+  <i class="fa-solid fa-star"></i>
+  <i class="fa-solid fa-star"></i>
+  <i class="fa-solid fa-star"></i>
+  <i class="fa-solid fa-star"></i></span>
+<small>from 100+ reviews</small></div>
 </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 pb-5 mb-5">
           <div class="imgAos">
-<img src="assets/images/ellipse.png" alt="" class="elliImg">
+<img src="assets/images/ellipse.png" alt="" class="bannerImg" width="588px" height="555px">
           </div>
       </div>
     </div>
@@ -81,18 +88,25 @@
 
         <!-- Clients & Partners-->
     <div class="container">
-          <div class="text-left viewTxt" >
-            <img src="assets/images/clients.png" alt="" width="996px" height="180px">
-            </div></div>
+          <div class="clients" >
+            <img src="assets/images/clients.png" alt="" width="auto" height="180px" style=" margin-left: 140px; margin-right:140px; margin-bottom:100px;">
+            </div>
+          </div>
 <!-- Experience the power of 3D-->
 <div class="container">
   <div class="row">
     <div class="col-lg-6">
-      <img src="assets/images/experience.png" alt="" width="480px">
+      <img src="assets/images/experience.png" alt="" width="488px" height="562px">
     </div>
-    <div class="col-lg-6" id="realTime">
-      <h3>Experience the power of 3D in real time like never before</h3>
-      <h5>Capture, visualize, and present your work in a unique and engaging way.</h5>
+    <div class="col-lg-6 experience">
+      <h3 style=" font-family: lora 'open sans';
+      font-size: 32px;
+      line-height: 40px;padding-bottom: 20px;
+      font-weight:400;">Experience the power of 3D in real time like never before</h3>
+      <h5 style=" font-family: lora 'open sans';
+      font-size: 24px;
+      line-height: 32px;
+      font-weight: 250;">Capture, visualize, and present your work in a unique and engaging way.</h5>
       <p><ul class="viewControl">
         <li><p> View and interact with 3D models of your work/project in real-time</p></li>
         <li><p>Control the camera view to showcase specific angles and perspectives.</p></li>
@@ -106,9 +120,15 @@
 <!--Create more immersive project -->
 <div class="container">
   <div class="row">
-    <div class="col-lg-6" id="reaTime">
-      <h3>Create more immersive project presentation</h3>
-      <h5>Whether you are Architect, Designer, Real-Estate manager, with ViewE you get to persent your work in ways that brings it to life.</h5>
+    <div class="col-lg-6 experience">
+      <h3 style=" font-family: lora 'open sans';
+      font-size: 32px;
+      line-height: 40px;padding-bottom: 20px;
+      font-weight:400;">Create more immersive project presentation</h3>
+      <h5 style=" font-family: lora 'open sans';
+      font-size: 24px;
+      line-height: 32px;
+      font-weight: 250;">Whether you are Architect, Designer, Real-Estate manager, with ViewE you get to persent your work in ways that brings it to life.</h5>
       <p><ul class="viewControl">
         <li><p> View and interact with 3D models of your work/project in real-time</p></li>
         <li><p>Control the camera view to showcase specific angles and perspectives.</p></li>
@@ -129,9 +149,15 @@
     <div class="col-lg-6">
       <img src="assets/images/collaboration.png" alt="" width="480px">
     </div>
-    <div class="col-lg-6" id="realtime">
-      <h3>Collaboration has never been made easier.</h3>
-      <h5>Real-time feedback and collaboration with clients and colleagues, and increased efficiency in making changes to 3D models.</h5>
+    <div class="col-lg-6 experience">
+      <h3 style=" font-family: lora 'open sans';
+      font-size: 32px;
+      line-height: 40px;padding-bottom: 20px;
+      font-weight:400;">Collaboration has never been made easier.</h3>
+      <h5 style=" font-family: lora 'open sans';
+      font-size: 24px;
+      line-height: 32px;
+      font-weight: 250;">Real-time feedback and collaboration with clients and colleagues, and increased efficiency in making changes to 3D models.</h5>
       <p><ul class="viewControl">
         <li><p> Share 3D models with others via web links</p></li>
         <li><p>Communicate with clients and colleagues in real-time with the chat feature.</p></li>
@@ -144,47 +170,54 @@
 </div><!-- End of collaboration-->
 <section class="intrNerf">
 <!-- Introducing NeRF-->
-<div class="container" id="nerfIntro">
+<div class="container" id="introductNerf">
   <div class="row">
     <div class="col-lg-6">
-      <img src="/assets/images/nerrf.png" alt="" height="506px" width="1200px" class="ms-5">
       <img src="assets/images/Nerf.png" alt="" width="480px" class="narrtfImge">
   </div>
-  <div class="col-lg-6 text-white mt-5 pt-5">
-    <h4>Introducing NeRF</h4>
+  <div class="col-lg-6 text-white">
+    <div class="introductTxt">
+    <h3 style="font-family: 'lora'; font-weight:400; font-size: 32px; line-height: 40px;">Introducing NeRF</h3>
     <p></p>
-    <h5>Capture and create 3D representation of object with ease.</h5>
+    <h5 style=" font-family: lora 'open sans';
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 250; opacity: .85;">Capture and create 3D <br>representation of objects with <br> ease.</h5>
     <p>
       <button class="nerfbtn"><a href="#">Download now</a></button>
-    </p>
+    </p></div>
   </div>
 </div>
 </div><!-- End of Nerf-->
 <div style="margin-top:240px;"><hr style="width:1190px; margin:auto;" /></div>
 <!-- Features-->
+ <section id="features">
 <div class="features">
   <h3>The Best Features Any 3D App Can Offer</h3>
-  <div class="container">
-    <div class="row mt-5 allFeatures">
-      <div class="col-lg-6">
+  
+
+  <div class="container mt-5 ">
+    <div class="row topNotch mx-auto">
+      <div class="col-lg-6 ps-5">
         <img src="/assets/images/cloud.png" alt="" width="40px" class="mb-2">
-        <h4>Various Industries<br>Application</h4>
-        <p>Enhanced visualization and <br>presentation options for professionals <br>in various industries such as:</p>
+        <h4 style="font-family: lora; font-weight: 500; font-size: 35px; line-height: 32px; padding-top: 12px;">Various Industries<br>Application</h4>
+        <p style="font-family: lora; font-weight: 150; line-height: 22px; padding-top: 8px; font-size: large;">Enhanced visualization and <br>presentation options for professionals <br>in various industries such as:</p>
         <p><ul class="featuresList">
           <li><p>Architecture</p></li>
           <li><p>Real estate</p></li>
+          <li><p>Engineering </p></li>
           <li><p>Art</p></li>
         </ul></p>
       </div>
       <div class="col-lg-6" w-100>
-        <div class="row">
+        <div class="row ps-5">
           <div class="col-lg-4 realEstate" ><small>Real-estate</small>
           <img src="/assets/images/realestate.png" alt="" width="120px" height="143px"></div>
           <div class="col-lg-4 architec"><small>Architecture</small>
           <img src="/assets/images/architec.png" alt="" width="140px" height="125px" class="mt-3"></div>
         </div>
-        <div class="row">
-          <div class="col-lg-4 homeDeco"><small>Art</small>
+        <div class="row ps-5">
+          <div class="col-lg-4 homeDeco"><small>Art</small><br>
             <img src="/assets/images/art.png" alt="" width="110px"></div>
           <div class="col-lg-4 homeDeco"><small>Home Decor</small>
           <img src="/assets/images/homedecor.png" alt="" width="115px"></div>
@@ -193,84 +226,95 @@
     </div>
   </div>
 
-</div><!--End of features-->
+</div>
+</section><!--End of features-->
 
-<div class="container">
-  <div class="row mt-5">
-    <div class="col-lg-6 interActive">
-      <img src="/assets/images/cloud.png" alt="" width="40px"><p></p>
-      <h4>Interactive and <br>Collaborative work</h4>
-      <img src="/assets/images/interactive.png" alt="" width="250px"><p></p>
-      <p>Complete and interactive understanding of work <br>for client, stakeholders, and colleagues.</p>
+  <div class="container mt-5">
+    <div class="row topInt mx-auto gx-5">
+      <div class="col interActive collaborative me-4" >
+        <div class="p-3">
+        <img src="/assets/images/cloud.png" alt="" width="40px"><p></p>
+        <h4 style=" font-family: lora 'open sans';
+        font-size: 29px;
+        line-height: 32px;
+        font-weight: 400;">Interactive and <br>Collaborative work</h4>
+        <img src="/assets/images/interactive.png" alt="" width="329px"><p></p>
+        <p>Complete and interactive understanding of work <br>for client, stakeholders, and colleagues.</p>
+      </div>
+      </div>
+      <div class="col interActive seamless">
+        <div class="p-3">
+        <img src="/assets/images/cloud.png" alt="" width="40px"><p></p>
+        <h4 style=" font-family: lora 'open sans';
+        font-size: 29px;
+        line-height: 32px;
+        font-weight: 400;">Seamless integration <br> with other apps</h4>
+        <img src="/assets/images/seamless.png" alt="" width="470px"><p></p>
+        <p>Simplified workflow with seamless integration <br>with existing tools and workflows.</p></div>
+      </div>
     </div>
-    <div class="col-lg-6 interActive">
-      <img src="/assets/images/cloud.png" alt="" width="40px"><p></p>
-      <h4>Seamless integration <br> with other apps</h4>
-      <img src="/assets/images/seamless.png" alt="" width="370px"><p></p>
-      <p>Simplified workflow with seamless integration <br>with existing tools and workflows.</p>
-    </div>
-      
-    </div>
-  </div> <!-- end of interactive & Seamless-->
+  </div>
+  <!-- end of interactive & Seamless-->
  
 <!-- Top Notch -->
-
-<div class="container mt-5">
-  <div class="row topNotch">
-    <div class="col-lg-6">
+<div class="container mt-5" style="padding-bottom: 100px;">
+  <div class="row topNotch mx-auto ">
+    <div class="col-lg-6 ps-5 mt-5 pt-5">
       <img src="/assets/images/cloud.png" alt="" width="40px"><p></p>
-      <h4>Top notch security</h4>
-      <p>Data privacy and security to ensure<br> sensitive and confidential data is<br> secure.</p>
+      <h4 style="font-size: 30px; font-family: lora; font-weight: 500;">Top notch security</h4>
+      <p style="font-size: 20px; font-family: 'open sans'; font-weight: 300; opacity: .8;">Data privacy and security to ensure<br> sensitive and confidential data is<br> secure.</p>
     </div>
-    <div class="col-lg-6">
+    <div class="col-lg-6" w-100>
       <img src="/assets/images/topnotch.png" alt="" width="388px" height="388px">
     </div>
   </div>
 </div>
+
 <!-- end of top notch-->
 </section>
 <!--Get Started today-->
+
 <section class="getStarted">
   <div class="container">
     <div class="row">
       <div class="col-lg-6">
-        <img src="/assets/images/getstarted.png" alt="" width="607px" height="600px" class="getImg">
+        <img src="/assets/images/gtstarted.png" alt="" width="607px" height="600px" class="getImg">
       </div>
       <div class="col-lg-6 gettxt">
-        <h3>Get started today with the best Immersive 3d experience</h3>
-        <p>A new way to interact with your environment</p>
-        <button><a href="#">Download now</a></button>
+        <h3 style="font-size: 33px; line-height: 40px; font-family: lora; font-weight: 500;">Get started today with the best<br> Immersive 3d experience</h3>
+        <p style="font-size: 24px; line-height: 32px; font-family: lora; font-weight: 500; opacity: .8;">A new way to interact with your environment</p>
+        <button><a href="/download.html">Download now</a></button>
       </div>
     </div>
   </div>
 </section><!--end of Get Started-->
 <!--Easy and simple to use -->
-<section class="esySimple">
+<section class="esySimpl">
 <div class="container">
   <div class="row">
     <div class="col-lg-6">
-      <h3>Easy and Simple to use</h3>
-      <p>Real -time feedback and collaboration with clients <br>and colleagues and increased efficiency in making<br> changes to 3D models</p>
+      <h3 style="font-size: 33px; line-height: 40px; font-family: lora; font-weight: 500;">Easy and Simple to use</h3>
+      <p style="font-size: 24px; line-height: 32px; font-family: lora; font-weight: 300;">Real -time feedback and collaboration with clients <br>and colleagues and increased efficiency in making<br> changes to 3D models</p>
       <img src="/assets/images/easySimple.png" alt="" width="500px">
     </div>
     <div class="col-lg-6">
       <div class="card mb-3" style="width: 28rem;">
         <div class="card-body">
-          <h5 class="card-title"> <img src="/assets/images/cloud.png" alt="" width="48px" class="iconCloud"> Download App</h5>
+          <h5 class="card-title"> <img src="/assets/images/cloud.png" alt="" width="48px" class="iconCloud" style="font-size: 24px; line-height: 32px; font-family: lora; font-weight: 500;"> Download App</h5>
           <p class="card-text">Data privacy and security to ensure sensitive and confidential data is secure.</p>
           
         </div>
       </div>
       <div class="card mb-3" style="width: 28rem;">
         <div class="card-body">
-          <h5 class="card-title"><img src="/assets/images/cloud.png" alt="" width="48px" class="iconCloud">Capture Objects Using NeRF</h5>
+          <h5 class="card-title"><img src="/assets/images/cloud.png" alt="" width="48px" class="iconCloud"    style="font-size: 24px; line-height: 32px; font-family: lora; font-weight: 500;">Capture Objects Using NeRF</h5>
           <p class="card-text">Capture and create 3D representations of objects with ease.</p>
         </div>
       </div>
       <div class="card mb-3" style="width: 28rem;">
         <div class="card-body">
-          <h5 class="card-title"><img src="/assets/images/cloud.png" alt="" width="48px" class="iconCloud">Project onto your desired surface</h5>
-          <p class="card-text">Data privacy and security to ensure sensitive and confidential data is secure.</p>
+          <h5 class="card-title"><img src="/assets/images/cloud.png" alt="" width="48px" class="iconCloud" style="font-size: 24px; line-height: 32px; font-family: lora; font-weight: 500;">Project onto your desired surface</h5>
+          <p class="card-text" >Data privacy and security to ensure sensitive and confidential data is secure.</p>
         </div>
       </div>
       <button class="easybtn"><a href="#">Download now</a></button>
@@ -283,10 +327,10 @@
 <!-- testimony -->
 <section id="testimonials">
   <h3> What our clients say about us</h3>
+  <div class="container pb-5">
   <div class="row row-cols-1 row-cols-md-3 g-4">
-    <div class="col">
-      <div class="card h-100">
-        
+    <div class="col-lg-4">
+      <div class="card h-100 w-100 bg-transparent">
         <div class="card-body">
           <h5 class="card-title">"A game Changer"</h5>
           <p class="card-text">This application is a game-changer for my presentations! Being able to showcase my designs in 3D, with all the details and textures, has made a huge difference in how clients perceive my work. I already won several new contracts thanks to this tool.</p>
@@ -297,10 +341,10 @@
         </div>
       </div>
     </div>
-    <div class="col">
-      <div class="card h-100">
+    <div class="col-lg-4">
+      <div class="card h-100 w-100 bg-transparent">
        
-        <div class="card-body">
+        <div class="card-body ">
           <h5 class="card-title">"The best 3d app ever"</h5>
           <p class="card-text">The level of immersion that this application provides is incredible. Clients can see every aspect of my project, from different angles and perspectives, and even walk around it to get a sense of the scale and proportion. It's like having a virtual showroom!</p>
           <div class="wrapper">
@@ -311,8 +355,8 @@
         
       </div>
     </div>
-    <div class="col">
-      <div class="card h-100">
+    <div class="col-lg-4">
+      <div class="card h-100 w-100 bg-transparent">
         <div class="card-body">
           <h5 class="card-title">"Easy to use"</h5>
           <p class="card-text">The ease of use of this application is impressive. I don't need any special training or expertise to operate it, and I can even make changes to the design in real-time. This has saved me a lot of time and effort, and has helped my to collaborate more effectively with my clients.</p>
@@ -326,6 +370,7 @@
       </div>
     </div>
   </div>
+</div>
 </section><!--End of Testimonies-->
 <!-- newsletter-->
 <section id="newLetter">
@@ -349,10 +394,10 @@
         <div class="footerLogo">
           <img src="/assets/images/logo.png" alt="" width="50px">
           <ul class="footerMenu">
-            <li> <a href="#">About</a> </li>
-            <li> <a href="#">Blog</a> </li>
-            <li><a href="#">Download</a> </li>
-            <li><a href="#">Contact</a> </li>
+            <li> <a href="/about.html">About</a> </li>
+            <li> <a href="/blog.html">Blog</a> </li>
+            <li><a href="/download.html">Download</a> </li>
+            <li><a href="/download.html">Contact</a> </li>
           </ul>
         </div>
       </div>
@@ -371,7 +416,7 @@
       </div>
       <div class="col-lg-4">
 <div>
-  <ul class="footerMenu ms-5" style="opacity: 0.5; padding-top: 10px;"><li> <a href="">Terms of Service</a> </li>
+  <ul class="footerMenu ms-5" style="opacity: 0.5; padding-top: 10px;font-size: 18px; line-height: 28px; font-family: 'open sans';  font-weight: 400; "><li> <a href="">Terms of Service</a> </li>
   <li><a href="">Privacy Policy</a> </li></ul>
 </div>
       </div>
